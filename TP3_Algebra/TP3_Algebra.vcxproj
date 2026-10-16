@@ -152,6 +152,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="TP3_Algebra.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="Polyhedron.cpp" />
+    <ClCompile Include="CollisionGrid.cpp" />
+    <ClCompile Include="Rendering.cpp" />
+    <ClCompile Include="Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="Polyhedron.h" />
+    <ClInclude Include="CollisionGrid.h" />
+    <ClInclude Include="Rendering.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
